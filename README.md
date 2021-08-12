@@ -11,7 +11,9 @@ The player will be dealt one card at the start of the game (where a game is one 
 You will need a while loop in your program. The loop will allow you to play successive games without restarting the program each time; it will also allow you to k eep a win count over multiple games.
 ## Structure
 Now that you have a general overview, here are the nitty gritty details.
+
 When the program starts it should print **“START GAME #1”** to the console, and the player should automatically be dealt their first card. With each new game played it should print the corresponding game number in this way.
+
 To determine what card the player is dealt, a random number must be generated between 1 and 13; it is then added to the player’s hand. The range of random generation will be from 1-13. The values correspond to these cards:
 
 | Value | Card |
@@ -23,7 +25,9 @@ To determine what card the player is dealt, a random number must be generated be
 | 12 | KING! |
 
 Face cards (King, Queen, Jack) are worth a value of 10. If the player is dealt a King (generated as 13), the value 10 should be added to the player’s hand value rather than a 13. Aces have a value of 1. Every other card will be worth its face value.
+
 Whenever a card is dealt, print the value of the card and the total value of your hand. (See sample output for format). If the card you were dealt was a face card or an ace then print the type of card. For example, if you were dealt a King you would print **“Your card is a KING!”** If the card was not a face card or an ace print the value of the card. For example, **“Your card is a 2!”**.
+
 After the card is dealt, print the menu to the screen. The menu should look like this:
 1. Get another card
 2. Hold hand
