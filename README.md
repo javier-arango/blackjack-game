@@ -1,9 +1,6 @@
 # Blackjack Game
 ## Overview
-In this project students will simulate a simplified version of the game Blackjack. Students will implement random card drawing, calculation, state tracking, and console input systems. The project is designed to be a playful yet practical opportunity to practice data types, console I/O, control structures, and libraries.
-
-## Rules of the Road
-Forewarning: this specification does NOT follow the rules of casino Blackjack. Don’t drop out of your studies and move to Vegas just because you can beat your own randomized AI!
+In this project you will simulate a simplified version of the game Blackjack. You will implement random card drawing, calculation, state tracking, and console input systems. The project is designed to be a playful yet practical opportunity to practice data types, console I/O, control structures, and libraries.
 
 A typical game will play out as follows:
 
