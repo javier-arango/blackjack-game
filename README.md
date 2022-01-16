@@ -52,5 +52,3 @@ If any other input is entered, print the following text:
 
 Invalid input!
 Please enter an integer value between 1 and 4.
-
-Then redisplay the menu. You can assume that the input will be numeric for this project (but not future projects.)
